@@ -1,0 +1,48 @@
+#wrapper {
+    margin: 0 auto;
+    
+}
+
+.riadok {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.stlpec {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.left {
+    background-color: gray;
+    height: 100%;
+    padding: 20px;
+}
+
+.main {
+    background-color: gray;
+    height: 100%;
+    padding: 20px;
+}
+
+.right {
+    background-color: gray;
+    height: 100%;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(97, 95, 95);
+    width: auto;
+    height: max-content;
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    margin: 0;
+}
