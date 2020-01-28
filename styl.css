@@ -3,6 +3,23 @@
     
 }
 
+#flex-container {
+    display: flex;
+}
+
+#flex-container div:nth-of-type(1) {
+    flex-grow: 1;
+    
+}
+#flex-container div:nth-of-type(2) {
+    flex-grow: 2;
+    
+}
+#flex-container div:nth-of-type(3) {
+    flex-grow: 1;
+    
+}
+
 .riadok {
     display: flex;
     flex-direction: row;
@@ -18,13 +35,14 @@
 }
 
 .left {
-    background-color: gray;
+    background-color: white;
     height: 100%;
     padding: 20px;
+    
 }
 
 .main {
-    background-color: gray;
+    background-color: blue;
     height: 100%;
     padding: 20px;
 }
@@ -33,6 +51,7 @@
     background-color: gray;
     height: 100%;
     padding: 20px;
+   
 }
 
 header {
@@ -45,4 +64,15 @@ header {
 
 body {
     margin: 0;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    height: 100px;
+    min-height: 30px;
+    background-color: black;
+    width: auto;
+    text-align:  center;
 }
