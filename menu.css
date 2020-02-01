@@ -1,0 +1,60 @@
+nav ul {
+    line-height: normal;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    text-align: center;
+    width: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: blueviolet;
+}
+
+nav ul li ul li {
+    display: none;
+}
+
+nav ul li:hover ul li {
+    display: block;
+    background-color: white;
+}
+
+.div1 { 
+    grid-area: 1 / 1 / 2 / 9;
+    background-color: blue;
+  }
+  .div2 { 
+    grid-area: 5 / 1 / 6 / 9; 
+    background-color: blueviolet;
+  }
+  .div3 { 
+    grid-area: 2 / 1 / 5 / 2; 
+    background-color: burlywood;
+    margin: 0;
+    padding-left: 0;
+  }
+  .div4 { 
+    grid-area: 2 / 2 / 5 / 9; 
+    background-color: chocolate;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  footer img{
+    width: 30px;
+    height: 30px;
+  }
+
