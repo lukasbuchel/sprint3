@@ -31,6 +31,7 @@ nav ul li:hover ul li {
 .div1 { 
     grid-area: 1 / 1 / 2 / 9;
     background-color: blue;
+    z-index: 99;
   }
   .div2 { 
     grid-area: 5 / 1 / 6 / 9; 
