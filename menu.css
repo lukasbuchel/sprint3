@@ -1,36 +1,87 @@
+header img {
+  width: 180px;
+  height: 50px;
+  margin-top: 11px;
+  float: right;
+}
+
+nav li {
+  display: block;
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgb(44, 43, 43);
+  float: left;
+  padding: 1rem;
+  position: relative;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
 nav ul {
-    line-height: normal;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  background-color: rgb(44, 43, 43);
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
-nav ul li{
-    text-align: center;
-    width: 50px;
+nav li:hover {
+  cursor: pointer;
+  background-color: gold;
+  color: black;
 }
 
-nav ul li a{
-    text-decoration: none;
-    display: block;
+nav li:hover > a {
+  color: black;
 }
 
-nav ul li a:hover{
-    background-color: blueviolet;
+ul li ul {
+  background-color:rgb(44, 43, 43);
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+  
 }
 
-nav ul li ul li {
-    display: none;
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
 }
 
-nav ul li:hover ul li {
-    display: block;
-    background-color: white;
+ul li ul li {
+  clear: both;
+  width: 100%;
+  box-shadow: 4px 5px 10px rgb(48, 47, 47);
+}
+
+.menu {
+  font-size: 20px; 
+}
+
+.last {
+  border-bottom-right-radius: 10px;
+}
+
+.title {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .div1 { 
     grid-area: 1 / 1 / 2 / 9;
-    background-color: blue;
+    background-color: black;
     z-index: 99;
   }
   .div2 { 
