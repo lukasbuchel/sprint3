@@ -12,4 +12,31 @@ body{
   grid-row-gap: 0px;
   }
   
+  .content {
+    margin-left: 30px;
+  }
+  
+  .nazov {
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  #contactInfo {
+    margin-top: 5px;
+  }
+
+  .map {
+    width: 600px;
+    height: 450px; 
+    border: 1px solid black;
+    opacity: 2;
+  }
   
