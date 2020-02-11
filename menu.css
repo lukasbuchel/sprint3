@@ -98,6 +98,7 @@ ul li ul li {
     grid-area: 5 / 1 / 6 / 9; 
     background-color: black;
     color: white;
+    bottom: 0;
 }
  
 .telo { 
@@ -143,4 +144,54 @@ footer img{
   height: 450px; 
   border: 1px solid black;
   opacity: 2;
+}
+
+#foto{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr) ;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#foto1{
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+#foto2{
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+#foto3{
+  grid-area: 1 / 3 / span 1 / span 1;
+}
+
+
+#foto4{
+  grid-area: 1 / 4 / span 1 / span 1;
+}
+
+#foto5{
+  grid-area: 1 / 5 / span 1 / span 1;
+}
+
+
+#foto6{
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+#foto7{
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+#foto8{
+  grid-area: 2 / 3 / span 1 / span 1;
+}
+
+#foto9{
+  grid-area: 2 / 4 / span 1 / span 1;
+}
+
+#foto10{
+  grid-area: 2 / 5 / span 1 / span 1;
 }
