@@ -7,6 +7,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
 header img {
   width: 180px;
   height: 50px;
@@ -86,6 +92,7 @@ ul li ul li {
   color: white;
   text-align: center;
   margin-top: 5px;
+  text-decoration: none;
 }
 
 .navigacia { 
@@ -112,6 +119,7 @@ footer{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    align-items: center;
 }
 
 footer img{
@@ -126,7 +134,6 @@ footer img{
 .nazov {
   text-align: left;
   font-size: 30px;
-  text-decoration: underline;
 }
 
 .icon {
