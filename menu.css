@@ -168,3 +168,35 @@ footer img{
 #foto img{
   width: 100%;
 }
+
+.profil {
+  float: right;
+  border-radius: 50%;
+  width: 330px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+#omne1 {
+  width: 100%;
+  margin-bottom: 0; 
+}
+
+#cont1 {
+  padding: 20px;
+}
+
+#cont1 h1 {
+  color: white;
+  margin-left: 80px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+  margin-bottom:50px;
+}
+
+#cont1 p {
+  color: lightgray;
+  font-size: 17px;
+  font-family: 'Libre Baskerville', serif;
+}
+
