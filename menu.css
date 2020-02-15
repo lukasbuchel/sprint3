@@ -11,7 +11,7 @@ h1{
   font-size: 30px;
   text-decoration: none;
   margin-left: 30px;
-  color: white;
+  color: black;
 }
 
 header img {
@@ -108,8 +108,7 @@ ul li ul li {
  
 .telo { 
     grid-area: 2 / 2 / 5 / 6; 
-    background-color: rgb(37, 36, 36);
-    
+    background-color: white;    
 }
 
 footer{
@@ -129,7 +128,7 @@ footer img{
 
 .content {
   margin-left: 30px;
-  color: white;
+  color: black;
 }
 
 .content a {
@@ -144,6 +143,7 @@ footer img{
 
 #contactInfo {
   margin-top: 5px;
+  color: black;
 }
 
 .map {
@@ -190,7 +190,7 @@ footer img{
 }
 
 #cont1 h1 {
-  color: white;
+  color: black;
   margin-left: 80px;
   font-family: 'Libre Baskerville', serif;
   font-size: 25px;
@@ -198,7 +198,7 @@ footer img{
 }
 
 #cont1 p {
-  color: lightgray;
+  color: black;
   font-size: 17px;
   font-family: 'Libre Baskerville', serif;
 }
@@ -293,3 +293,26 @@ domov */
 /*------------------------------------------*/
 
 
+.dom2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/*---Kalendar-----------------------------*/
+
+
+table{
+  width: 100%;
+  padding: 5px;
+
+  }
+
+td{
+  padding: 10px;
+}
+
+table, th, td{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
