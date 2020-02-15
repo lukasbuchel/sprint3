@@ -97,14 +97,14 @@ ul li ul li {
 
 .navigacia { 
     grid-area: 1 / 1 / 2 / 9;
-    background-color: black;
+    background-color:rgb(44, 43, 43);
     z-index: 99;
-  
+    
 }
 
 .pata{ 
     grid-area: 5 / 1 / 6 / 9; 
-    background-color: black;
+    background-color:rgb(44, 43, 43);
     color: white;
     bottom: 0;
 }
@@ -200,3 +200,21 @@ footer img{
   font-family: 'Libre Baskerville', serif;
 }
 
+#fixed {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding: 0;
+  margin: 0;
+  height: 65px;
+}
+
+#fixed h1 {
+  margin-bottom: 5px;
+}
+
+#vylepsovak {
+  height: 100%;
+  display: inline-block;
+  padding: 9%;
+}
