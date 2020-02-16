@@ -120,7 +120,6 @@ body{
   margin-top: 0;
   padding: 20px;
   margin-top: 870px;
-  text-align: left;
 }
 
 #mainThai p{
@@ -130,12 +129,13 @@ body{
 
 #mainThai h1{
   margin: 10px;
-  font-size: 40px;
+  font-size: 30px;
   color: rgba(50, 200, 50, 1);
 }
 
 
 #mainThai p{
+  margin: 10px;
   font-size: 20px;
   color:white;
   
@@ -144,19 +144,28 @@ body{
 #mainThai h2{
   margin: 10px;
   font-size: 40px;
-  color: rgb(211, 23, 23);
+  color: rgba(50, 200, 50, 1);
 }
 
-th {
-  text-align: center;
+.borderGreen {
+  border: 5px dashed rgba(50, 200, 50, 1);
+  border-radius: 5px;
+  margin-top: 30px;
 }
 
-td{
-  padding: 5px 30px 5px 30px;
-}
-
-.dobra{
-  color:rgba(50, 200, 50, 1)
-}
+.buttons{
+  display: flex;
+  width: 960px;
+  justify-content: center;
   
-  
+}
+.buttons :hover{
+}
+.button{
+  border-radius: 20px;
+  width: 250px;
+  height: 120px;
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+}
