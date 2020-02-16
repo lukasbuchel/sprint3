@@ -95,3 +95,68 @@ body{
 #tKlub h1{
   margin: 10px;
 }
+
+#videoBanner {
+  padding-bottom: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.videoContent {
+  margin-top: 775px;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(50, 200, 50, 1);
+  width: 100%;
+  padding: 20px;
+}
+
+#mainThai {
+  width: 960px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+  padding: 20px;
+  margin-top: 870px;
+  text-align: left;
+}
+
+#mainThai p{
+  font-size: 30px;
+  margin: 0;
+}
+
+#mainThai h1{
+  margin: 10px;
+  font-size: 40px;
+  color: rgba(50, 200, 50, 1);
+}
+
+
+#mainThai p{
+  font-size: 20px;
+  color:white;
+  
+}
+
+#mainThai h2{
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(211, 23, 23);
+}
+
+th {
+  text-align: center;
+}
+
+td{
+  padding: 5px 30px 5px 30px;
+}
+
+.dobra{
+  color:rgba(50, 200, 50, 1)
+}
+  
+  
