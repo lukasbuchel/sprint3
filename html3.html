@@ -14,21 +14,20 @@
      <link rel="stylesheet" href="menu.css">
      <title>Novinky</title>
  </head>
- <body id="pohodicka">
-    <div class="wrapper">
-        <header class="navigacia"> 
+  <body id="pohodicka">
+        <header class="navigacia" id="fixed"> 
             <nav>
                 <ul>
                     <li>
-                        <a class="menu" id="vylepsovak" href="#">Novinky</a>
+                        <a class="menu" id="vylepsovak" href="#">TKlub</a>
                         <ul>
                             <a  href="index.html"><li><i class="fas fa-home"></i> Domov</i></li></a>
                             <a  href="html1.html"><li><i class="fas fa-users"></i> O nás</li></i></a>
                             <a  href="html2.html"><li><i class="fas fa-address-book"></i> Kontakt</li></i></a>
-                            <a  href="html3.html"><li><i class="fas fa-newspaper"></i> Novinky</li></i></li></a>
-                            <a  href="html4.html"><li>Roko športovec</li></a>
-                            <a  href=http://rokoje.chytrak.cz><li>RokoShop</li></a>
-                            <a  href="html6.html"><li>Texty piesní</li></a>
+                            <a  href="html3.html"><li>html3</li></a>
+                            <a  href="html4.html"><li>html4</li></a>
+                            <a  href="html5.html"><li>html5</li></a>
+                            <a  href="html6.html"><li>html6</li></a>
                             <a  href="html7.html"><li><i class="fas fa-calendar-times"></i> Kalendár</li></a>
                             <a  href="html8.html"><li class="active"><i class="fas fa-photo-video"></i> Fotogaléria</li></i>  </a>
                             <a  href="html9.html"><li><i class="fas fa-dollar-sign"></i> Cenník</i></li></i></a>
@@ -40,66 +39,35 @@
             <a href="index.html"><img src="obr/logo.svg" alt="logo"></a>
             <h1 class="title">Roko</h1>
         </header>
-        <footer class="pata">
-            <a href=""><img src="obr/save.png"
-                alt="DOWNLOAD"></a>
-            <p>© 2019 Habala Telepčák Hlebaško Buchel</p>
-        <a href="#"><img src="obr/up.png" alt="HORE"></a>
-        </footer>
-
-        <div id="bannerWrapper">
-            <img src="obr/concert1.jpg" alt="concert" id="banner" >
-            <div class="centered">
-                <div id="bannerText">
-                    <h1>Najvacia party v strednej europe</h1>
-                </div>
-                
-            </div>
-        </div>
-
-        <main class="telo"> 
-            <p>Pridte sa pozriet na najlepsieho rapera vychodneho slovenska</p>
-            <div class="osobnost"><img src="obr/portret.jpg" alt="portret" height="256px">
-                <h1>Stefan Lukac "Roko"</h1>
-            </div>
+        <video  height="850" autoplay muted loop id="videoBanner">
+            <source src="video/video.webm" type="video/webm">
+            Your browser does not support HTML5 video.
+          </video>
+          <div class="videoContent">
+            <h1>Objavte silu Rokovho MuayThai</h1>
+          </div>
             
-            <p>Jeho predskokanmi budu:</p>
-            <div class="predskokani">
-                <div class="osobnost">
-                    <img src="obr/habera.jpg" alt="habera" height="256px">
-                    
-                    <h1>Pavol Habera</h1>
-                </div>
-                <div class="osobnost">
-                    <img src="obr/vrbovsky.JPG" alt="vrbovsky" height="256px">
-                    <h1>Patrik Vrbovsky</h1>
-                </div>
+        
+        <main id="mainThai">
+            <p>Rapper Roko je taktiez znamy tym, ze je skvely bojovnik MuayThai.</p>
+            <h1>Preto si pre vas pripravil trenovaciu video prirucku.</h1>
+            <p>Nie ste si isty ci tato prirucka je pre vas?</p>
+            <h1>Prve video je ZADARMO!</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NiUBPFHga38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>Objednavajte!</h1>
+                <h1>Dnes len za exkluzivnu cenu:</h1>
+                <div class="buttons">
+                    <div class="button">
+                        <h2>mesiac</h2>
+                        <h2>20€</h2>
+                        </div>
+                        
+                    <div class="button">
+                    <h2>rok</h2>
+                    <h2>100€</h2>
+                    </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <div class="predskokani">
-                <div class="osobnost">
-                    <p>Kde?</p>
-                    <h1>Kosice, TKlub</h1>
-                </div>
-                <div class="osobnost">
-                    <p>Kedy?</p>
-                    <h1>21. FEB 21:00</h1>
-                </div>
-                <div class="osobnost">
-                    <p>Cena?</p>
-                    <h1>6 €</h1>
-                </div>
-            </div>
-            
         </main>
 
-
-
-
-
-
-    </div>
  </body>
  </html>
