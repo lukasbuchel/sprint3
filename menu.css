@@ -11,7 +11,7 @@ h1{
   font-size: 30px;
   text-decoration: none;
   margin-left: 30px;
-  color: black;
+  color: white;
 }
 
 header img {
@@ -108,7 +108,7 @@ ul li ul li {
  
 .telo { 
     grid-area: 2 / 2 / 5 / 6; 
-    background-color: white;    
+    background-color: rgb(36, 35, 35);;    
 }
 
 footer{
@@ -128,7 +128,8 @@ footer img{
 
 .content {
   margin-left: 30px;
-  color: black;
+  color: white;
+  font-family: 'Cabin', sans-serif;
 }
 
 .content a {
@@ -143,11 +144,11 @@ footer img{
 
 #contactInfo {
   margin-top: 5px;
-  color: black;
+  color: white;
 }
 
 #contactInfo a{
-  color: black;
+  color: white;
 }
 
 
@@ -174,6 +175,14 @@ footer img{
   width: 100%;
 }
 
+#fot {
+  transition: transform .2s;
+}
+
+#fot:hover {
+  transform: scale(0.9);
+}
+
 /*O nas
 -------------------*/
 
@@ -195,7 +204,7 @@ footer img{
 }
 
 #cont1 h1 {
-  color: black;
+  color: white;
   margin-left: 80px;
   font-family: 'Libre Baskerville', serif;
   font-size: 25px;
@@ -203,7 +212,7 @@ footer img{
 }
 
 #cont1 p {
-  color: black;
+  color: white;
   font-size: 17px;
   font-family: 'Libre Baskerville', serif;
 }
@@ -256,14 +265,16 @@ domov */
   color: white;
   font-size: 30px;
   font-family: 'Cabin', sans-serif;
+ 
 }
 
 #domLink1 {
-  width: 200px;
-  height: 200px;
-  margin-left: 50px;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-left:100px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   transition: transform .2s;
 }
 
@@ -272,21 +283,26 @@ domov */
 }
 
 #domLink2 {
-  width: 200px;
-  height: 200px;
-  margin-left: 150px;
+  width: 150px;
+  height: 150px;
+  margin-left: 177px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   transition: transform .2s;
 }
 
 #domLink3 {
-  width: 200px;
-  height: 200px;
-  margin-left: 150px;
+  float: right;
+  width: 150px;
+  height: 150px;
+  margin-right: 100px;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   transition: transform .2s;
+}
+
+.dom2{
+  padding-bottom: 10px;
 }
 
 .dom3 img{
@@ -295,21 +311,24 @@ domov */
   margin-left: 25%;
   margin-bottom: 20px;
 }
+
+.dom3 {
+  background-color: rgb(51, 50, 50);
+  padding-top: 20px;
+}
 /*------------------------------------------*/
 
 
-.dom2 {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-}
+
 
 /*---Kalendar-----------------------------*/
 
 
 table{
-  width: 100%;
+  margin-left: 2.5%;
+  width: 95%;
   padding: 5px;
+  font-family: 'Cabin', sans-serif;
   }
 
 td{
@@ -317,8 +336,18 @@ td{
 }
 
 table, th, td{
-  border: 1px solid gray;
+  border: 2px solid rgb(161, 156, 156);
   border-collapse: collapse;
+}
+
+#horne th{
+  background-color: rgb(153, 149, 149);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#lavo {
+  background-color: rgb(104, 102, 102);
 }
 
 
@@ -427,7 +456,7 @@ table, th, td{
   margin: 10px;
 }
 #onas h1{
-  background-color: black;
+  background-color: rgb(66, 66, 66);
   padding: 3px 0 3px 25px;
   margin: 0 0 10px 0 ;
   color: white;
@@ -437,5 +466,10 @@ table, th, td{
   #onas p{
   margin: 0 25px 0 40px;
   padding-bottom: 40px;
+  color: rgb(172, 170, 170);
+  }
+
+  #onas {
+    font-family: 'Cabin', sans-serif;
   }
 

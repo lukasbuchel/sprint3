@@ -4,9 +4,9 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cabin', sans-serif;
   }
-  
+
   h1{
     font-size: 30px;
     text-decoration: none;
@@ -97,9 +97,8 @@ body{
   
   .navigacia { 
       grid-area: 1 / 1 / 2 / 9;
-      background-color:rgb(44, 43, 43);
+      background-color: black;
       z-index: 99;
-      
   }
   
   .pata{ 
