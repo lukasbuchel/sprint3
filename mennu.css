@@ -1,0 +1,220 @@
+body{
+    background-image: url(obr/pozadie.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1{
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  header img {
+    width: 180px;
+    height: 50px;
+    margin-top: 11px;
+    float: right;
+  }
+  
+  nav li {
+    display: block;
+    transition-duration: 0.5s;
+    color: white;
+    background-color: rgb(44, 43, 43);
+    float: left;
+    padding: 1rem;
+    position: relative;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul {
+   background-color: rgb(44, 43, 43);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  nav li:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  
+  nav li:hover > a {
+    color: black;
+  }
+  
+  ul li ul {
+    background-color:rgb(44, 43, 43);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+    box-shadow: 4px 5px 10px rgb(48, 47, 47);
+  }
+  
+  .menu {
+    font-size: 20px; 
+  }
+  
+  .last {
+    border-bottom-right-radius: 10px;
+  }
+  
+  .title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  
+  .navigacia { 
+      grid-area: 1 / 1 / 2 / 9;
+      background-color:rgb(44, 43, 43);
+      z-index: 99;
+      
+  }
+  
+  .pata{ 
+      grid-area: 5 / 1 / 6 / 9; 
+      background-color:rgb(44, 43, 43);
+      color: white;
+      bottom: 0;
+  }
+   
+  .telo { 
+      grid-area: 2 / 2 / 5 / 6; 
+      background-color: white;
+      
+  }
+  
+  footer{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+  }
+  
+  footer img{
+      width: 30px;
+      height: 30px;
+  }
+  
+  .content {
+    margin-left: 30px;
+  }
+  
+  .nazov {
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  .icon {
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  #contactInfo {
+    margin-top: 5px;
+  }
+  
+  .map {
+    width: 600px;
+    height: 450px; 
+    border: 1px solid black;
+    opacity: 2;
+  }
+  
+  #foto{
+    display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      justify-items: center;
+      grid-gap: 5px;
+      grid-row-gap: 0px;
+      padding: 5px;
+  }
+  
+  
+  
+  #foto img{
+    width: 100%;
+  }
+  
+  .profil {
+    float: right;
+    border-radius: 50%;
+    width: 330px;
+    height: 300px;
+    margin-top: 20px;
+  }
+  
+  #omne1 {
+    width: 100%;
+    margin-bottom: 0; 
+  }
+  
+  #cont1 {
+    padding: 20px;
+  }
+  
+  #cont1 h1 {
+    color: white;
+    margin-left: 80px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    margin-bottom:50px;
+  }
+  
+  #cont1 p {
+    color: lightgray;
+    font-size: 17px;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  #fixed {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding: 0;
+    margin: 0;
+    height: 65px;
+  }
+  
+  #fixed h1 {
+    margin-bottom: 5px;
+  }
+  
+  #vylepsovak {
+    height: 100%;
+    display: inline-block;
+    padding: 9%;
+  }
