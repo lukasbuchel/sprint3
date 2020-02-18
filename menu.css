@@ -25,7 +25,7 @@ nav li {
   display: block;
   transition-duration: 0.5s;
   color: white;
-  background-color: rgb(44, 43, 43);
+  background-color: rgb(58, 57, 57);
   float: left;
   padding: 1rem;
   position: relative;
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav ul {
- background-color: rgb(44, 43, 43);
+ background-color: rgb(58, 57, 57);
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -108,7 +108,7 @@ ul li ul li {
  
 .telo { 
     grid-area: 2 / 2 / 5 / 6; 
-    background-color: rgb(36, 35, 35);;    
+    background-color: rgb(59, 57, 57);;    
 }
 
 footer{
@@ -270,9 +270,9 @@ domov */
 
 #domLink1 {
   float: left;
-  width: 150px;
-  height: 150px;
-  margin-left:100px;
+  width: 10%;
+  height: 10%;
+  margin-left:10%;
   margin-bottom: 30px;
   margin-top: 30px;
   transition: transform .2s;
@@ -283,9 +283,9 @@ domov */
 }
 
 #domLink2 {
-  width: 150px;
-  height: 150px;
-  margin-left: 177px;
+  width: 10%;
+  height: 10%;
+  margin-left: 25%;
   margin-bottom: 30px;
   margin-top: 30px;
   transition: transform .2s;
@@ -293,9 +293,9 @@ domov */
 
 #domLink3 {
   float: right;
-  width: 150px;
-  height: 150px;
-  margin-right: 100px;
+  width: 10%;
+  height: 10%;
+  margin-right: 10%;
   margin-bottom: 30px;
   margin-top: 30px;
   transition: transform .2s;
